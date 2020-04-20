@@ -1016,5 +1016,3 @@ public class finalcalculator
 	}
 
 }
-//two.setForeground(Color.getHSBColor(987, 678, 756));
-//https://github.com/Abulala10/calculator.git git repository
