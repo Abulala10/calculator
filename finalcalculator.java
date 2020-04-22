@@ -933,7 +933,10 @@ class first implements ActionListener
 				}
 				else if(s1.equals("^"))
 				{
-					result=(Double.parseDouble(s0))*(Double.parseDouble(s0));
+					//result=(Double.parseDouble(s0))*(Double.parseDouble(s0));
+					result = 1;
+					for(int i=1;i<=Double.parseDouble(s2);i++)
+						result = result*Double.parseDouble(s0);
 				}
 				else
 				{
@@ -977,7 +980,10 @@ class first implements ActionListener
 					}
 					else if(s1.equals("^"))
 					{
-						result=(Double.parseDouble(s0))*(Double.parseDouble(s0));
+						//result=(Double.parseDouble(s0))*(Double.parseDouble(s0));
+						result = 1;
+						for(int i=1;i<=Double.parseDouble(s2);i++)
+							result = result*Double.parseDouble(s0);
 					}
 					else
 					{
@@ -1002,6 +1008,7 @@ class first implements ActionListener
 	}
 	
 }
+
 public class finalcalculator 
 {
 
